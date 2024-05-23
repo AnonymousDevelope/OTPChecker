@@ -84,6 +84,11 @@ export default function MyForm() {
         duration: 3000,
         isClosable: true,
       });
+      // target _blank
+      setTimeout(() => {
+        window.close();
+        window.open("https://tuit.uz", "_blank");
+      },500)
     } else {
       toast({
         title: "Error",

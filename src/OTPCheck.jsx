@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 
 const OTPCheck = () => {
     const [otp,setOtp] = useState();
+    
   return (
     <Flex
       minH={"100vh"}
